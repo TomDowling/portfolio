@@ -118,7 +118,15 @@ export default function TikTokPrivacyPolicyPage() {
                                 We only retain your information for as long as necessary to provide the App&apos;s
                                 services. If you wish to delete your data or revoke access, you can do so through your
                                 TikTok account settings for connected apps and permissions. Alternatively, you can contact
-                                us directly to request data deletion.
+                                us directly to request data deletion. For full
+                                instructions, including exactly what is erased and how long backups take to clear, see
+                                our{" "}
+                                <Link
+                                    href="/terms/data-deletion"
+                                    className="text-rose-600 hover:text-rose-700 underline underline-offset-4">
+                                    Data Deletion page
+                                </Link>
+                                .
                             </p>
                         </div>
 

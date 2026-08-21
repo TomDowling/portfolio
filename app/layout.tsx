@@ -189,6 +189,36 @@ export default function RootLayout({
                                 </Link>
                             </div>
                         </div>
+                        <div className="border-t container mx-auto flex flex-col items-center gap-3 py-6 sm:flex-row sm:justify-center sm:gap-6">
+                            <span className="text-xs uppercase tracking-widest text-muted-foreground/70">
+                                App Policies
+                            </span>
+                            <nav aria-label="Legal" className="flex flex-wrap justify-center gap-x-5 gap-y-2">
+                                <Link
+                                    href="/terms/facebook"
+                                    className="text-sm text-muted-foreground hover:text-rose-500">
+                                    Facebook
+                                </Link>
+                                <Link
+                                    href="/terms/tiktok"
+                                    className="text-sm text-muted-foreground hover:text-rose-500">
+                                    TikTok
+                                </Link>
+                                <Link href="/terms/x" className="text-sm text-muted-foreground hover:text-rose-500">
+                                    X
+                                </Link>
+                                <Link
+                                    href="/terms/linkedin"
+                                    className="text-sm text-muted-foreground hover:text-rose-500">
+                                    LinkedIn
+                                </Link>
+                                <Link
+                                    href="/terms/data-deletion"
+                                    className="text-sm text-muted-foreground hover:text-rose-500">
+                                    Data Deletion
+                                </Link>
+                            </nav>
+                        </div>
                     </footer>
                 </div>
             </body>
