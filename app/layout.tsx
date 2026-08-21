@@ -194,6 +194,9 @@ export default function RootLayout({
                                 App Policies
                             </span>
                             <nav aria-label="Legal" className="flex flex-wrap justify-center gap-x-5 gap-y-2">
+                                <Link href="/terms" className="text-sm text-muted-foreground hover:text-rose-500">
+                                    Terms
+                                </Link>
                                 <Link
                                     href="/terms/facebook"
                                     className="text-sm text-muted-foreground hover:text-rose-500">
